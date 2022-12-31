@@ -1,2 +1,2 @@
 # Notorious-B.I.G
-Discord bot for my server
+A bot I made for discord, it can ban and kick members, besides of playing music
