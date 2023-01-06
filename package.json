@@ -8,9 +8,10 @@
   },
   "keywords": [],
   "author": "Juesgape <juesgape11@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@replit/database": "^2.0.1",
+    "discord": "^0.8.2",
     "discord.js": "^12.5.3",
     "express": "^4.17.3",
     "node-fetch": "^2.6.1"

@@ -1,7 +1,5 @@
 const Discord = require("discord.js")
-const fetch = require("node-fetch")
 const keepAlive = require("./server")
-
 const Database = require("@replit/database")
 
 const db = new Database()
@@ -134,10 +132,13 @@ client.on('message', message => {
   const command = args.shift().toLowerCase();
 
   if(command === 'kick') {
-  client.commands.get('kick').execute(message, args);
-} else if(command === 'ban') {
+    client.commands.get('kick').execute(message, args);
+  } else if(command === 'ban') {
     client.commands.get('ban').execute(message, args);
-}
+    
+  } else if(command === 'waifu') {
+    client.commands.get('waifu').execute(message, args, Discord)
+  }
   
 });
 
